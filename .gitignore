@@ -1,0 +1,7 @@
+# Ignore Python bytecode files in the api directory
+api/__pycache__/
+
+# Ignore node_modules in the frontend directory
+frontend/node_modules/
+
+frontend/README.md

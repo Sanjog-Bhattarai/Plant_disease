@@ -1,0 +1,44 @@
+.landing {
+    height: 100vh;
+    padding: 1rem;
+    text-align: center;
+    background-color: #f4f4f9; /* Optional: light background color */
+  }
+  
+  .landing-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  .site-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #b0bdcb;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .site-description {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #9da7b1;
+  }
+  
+  .login-link {
+    font-size: 1.2rem;
+    color: #3498db;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border: 1px solid #3498db;
+    border-radius: 10px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .login-link:hover {
+    background-color: #34374f;
+    color: white;
+  }
+  

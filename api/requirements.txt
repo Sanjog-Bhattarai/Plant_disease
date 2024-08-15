@@ -1,0 +1,32 @@
+# tensorflow==2.5.0
+# fastapi
+# uvicorn
+# python-multipart
+# pillow
+# tensorflow-serving-api==2.5.0
+# matplotlib
+# numpy
+
+fastapi==0.95.2
+uvicorn==0.23.2
+tensorflow==2.14.0
+tensorflow-serving-api==2.14.0
+pillow==9.5.0
+numpy==1.23.5
+
+
+
+
+
+# 1st this
+# docker run -it -v B:\RESUME_PROJECTS\plant_disease\potato_disease:/potato_disease -p 8602:8602 --entrypoint /bin/bash tensorflow/serving
+
+# then this
+# tensorflow_model_server --rest_api_port=8602  --allow_version_labels_for_unavailable_models --model_config_file=/potato_disease/models.config
+
+
+
+# python main-tf-serving.py
+
+
+# try pip install request

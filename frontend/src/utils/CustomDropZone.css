@@ -1,0 +1,50 @@
+/* customdropzone.css */
+
+.dropzone-container {
+    padding: 10px;
+    border-width: 2px;
+    border-style: dashed;
+    border-radius: 15px;
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #34374f;
+    transition: border-color 0.2s;
+    position: relative;
+    color: white;
+}
+
+.dropzone-container:hover {
+    border-color: #3182ce; /* Hover border color */
+}
+
+.dropzone-container input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    
+}
+
+.dropzone-icon {
+    font-size: 2em;
+    color: #a0aec0; /* Gray color for the icon */
+}
+
+.dropzone-text {
+    margin-top: 10px;
+    font-size: 1em;
+    color: #b2bbca; /* Darker gray color for text */
+}
+
+.dropzone-active {
+    border-color: #63b3ed; /* Border color when drag is active */
+}
+
+.dropzone-inactive {
+    border-color: #e2e8f0; /* Border color when not active */
+}
